@@ -20,9 +20,9 @@ body::before {
   background: #535971;
 }
 
-.page {
+.page, footer {
   width: 750px;
-  margin: 0 auto;
+  margin: 0 auto 366px;
 }
 
 header {
@@ -116,7 +116,7 @@ fieldset legend {
 
 .fieldset-wrapper-date legend {
   font-size: 20px;
-  line-height: 34px
+  line-height: 34px;
 }
 
 .col1-3 legend {
@@ -131,4 +131,34 @@ fieldset legend {
 
 .col1-3 > div:nth-child(1) {
   width: 100%;
+}
+
+footer {
+  height: 160px;
+  border-radius: 0px 0px 20px 20px;
+  background: #535971;
+}
+
+footer .button {
+  border: none;
+  border-radius: 20px;
+  background: #FF5374;
+  
+  width: 608px;
+  height: 56px;
+
+  margin: 52px 71px;
+  padding: 15px 40px;
+
+  color: #FFF;
+  font-family: 'Staatliches', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+footer .button:hover {
+  background: #b63622;
+  border: 1;
+  color: #FAFAFC;
 }
