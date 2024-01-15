@@ -61,20 +61,22 @@ fieldset {
   border: none;
 }
 
+fieldset legend {
+  color: #535971;
+  font-family: 'Staatliches', sans-serif;
+}
+
+.fieldset-wrapper legend {
+  font-size: 24px;
+  line-height: 34px;
+  border-bottom: 1px solid #e6e6f0;
+  padding-bottom: 16px;
+}
+
 .fieldset-wrapper {
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-fieldset legend {
-  color: #535971;
-  font-family: 'Staatliches', sans-serif;
-  font-size: 24px;
-  line-height: 34px;
-
-  border-bottom: 1px solid #e6e6f0;
-  padding-bottom: 16px;
 }
 
 .col-2 {
@@ -112,8 +114,9 @@ fieldset legend {
   background: #FAFAFC;
 }
 
-.fieldset-wrapper-date {
-
+.fieldset-wrapper-date legend {
+  font-size: 20px;
+  line-height: 34px
 }
 
 .col1-3 legend {
@@ -123,7 +126,7 @@ fieldset legend {
 
 .col1-3 {
   display: flex;
-  gap: 20px;
+  gap: 32px;
 }
 
 .col1-3 > div:nth-child(1) {
